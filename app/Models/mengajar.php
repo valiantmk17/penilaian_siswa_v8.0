@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class mengajar extends Model
 {
     use HasFactory;
-    protected $table = 'mapels';
+    protected $table = 'mengajars';
     protected $guarded = ['id'];
     protected $primarykey = 'id';
 
